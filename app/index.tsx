@@ -23,7 +23,7 @@ import React from 'react';
 import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { FontAwesome, MaterialIcons } from '@expo/vector-icons';
 
-export default function Home() {
+export default function Map() {
   return (
     <View style={styles.container}>
 
@@ -80,7 +80,7 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#1C1C1E', // Dark background
+    backgroundColor: '#1C1C1E', 
     padding: 20,
     justifyContent: 'center',
   },
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   inputRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#2C2C2E', // Slightly lighter dark background
+    backgroundColor: '#2C2C2E', 
     borderRadius: 10,
     padding: 10,
     marginBottom: 15,
